@@ -1,0 +1,19 @@
+def count_unique_bowels(s):
+    unique_bowels = set()
+    for char in s:
+        if char.isupper():
+            mirror_image = char.lower()
+            if mirror_image == char:
+                unique_bowels.add(char)
+    return len(unique_bowels)
+
+s0 = "ADFGHNB"
+print(count_unique_bowels(s0))  
+
+
+s1 = "w"
+print(count_unique_bowels(s1))  
+
+
+s2 = "BANGLORE"
+print(count_unique_bowels(s2))  
