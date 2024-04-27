@@ -1,6 +1,6 @@
 package TwoDimensionalArray;
 import java .util.scanner;
-public class 3darray;
+public class 6darray;
 public static void main(string[] agrs){
     scanner sc = new scanner(system.in);
     int [][] arr= new int[4][2];
