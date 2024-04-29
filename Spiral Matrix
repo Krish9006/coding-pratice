@@ -34,6 +34,6 @@ class Solution {
             minc++;
         }
 
-        return anb;
+        return anc;
     }
 }
