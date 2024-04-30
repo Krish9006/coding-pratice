@@ -24,7 +24,7 @@ public class matrics_multilpcation {
                 for (int j = 0; j < c[0].length; j++) {
                     System.out.print(c[i][j] + " ");
                 }
-                System.out.printlc(); // Move to the next line for the next row
+                System.out.println(); // Move to the next line for the next row
             }
         }
     }
