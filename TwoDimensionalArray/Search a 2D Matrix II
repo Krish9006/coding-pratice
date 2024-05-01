@@ -6,7 +6,7 @@ class Solution {
                 if(arr[i][j]==target) return true;
             }
         } 
-        return falsa;
+        return false;
         
     }
 }
