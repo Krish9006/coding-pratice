@@ -6,6 +6,6 @@ class Solution:
             if  i.upper() in set_a and i.lower() in set_a:
                count+=1
             
-        return counts//2
+        return count/2
             
         
