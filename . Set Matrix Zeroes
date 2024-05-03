@@ -8,7 +8,7 @@ class Solution {
                 if(arr[i][j]==0){
                     row[count]=i;
                     col[count]=j;
-                    count++;
+                    count+-;
                 }
             }
         }
