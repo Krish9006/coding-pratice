@@ -64,7 +64,7 @@ class Solution {
             dec = dec*2+arr[i];
         }
 
-        return dec; 
+        return dex; 
     }
     
 
