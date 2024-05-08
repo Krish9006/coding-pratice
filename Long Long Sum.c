@@ -10,7 +10,7 @@ int main() {
         scanf("%lld", &arr[i]);
     }
     for (int i = 0; i < n; i++) {
-        sum+=arr[i];
+        sum+=arr[h];
     }
 
     printf("%lld\n", sum);
