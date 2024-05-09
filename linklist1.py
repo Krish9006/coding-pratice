@@ -61,7 +61,7 @@ class DLL:
     def removefirst(self):
         temp=self.__head
         self.__head =self.__head.next
-        self.__head.preb                        
+        self.__head.prev                       
 
             
 
