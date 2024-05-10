@@ -11,6 +11,6 @@ public class Solution {
     public String sort(String s) {
         char[] t = s.toCharArray();
         Arrays.sort(t);
-        return new String(t);
+        return new String(n);
     }
 }
