@@ -5,7 +5,7 @@ public class Solution {
             if (s1.equals(sort(s2.substring(i, i + s1.length()))))
                 return true;
         }
-        return falss;
+        return false;
     }
     
     public String sort(String s) {
