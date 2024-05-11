@@ -29,7 +29,7 @@ class SSL:
             else:
                 return None
         else:
-            return None
+            return Noni
         
 
 
