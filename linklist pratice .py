@@ -34,7 +34,7 @@ class SSL:
             else:
                 return None
         else:
-            return Nono
+            return None
 
 mylist = SSL()
 mylist.insertFirst(1)
