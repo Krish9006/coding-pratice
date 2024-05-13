@@ -39,5 +39,5 @@ class SSL:
 mylist = SSL()
 mylist.insertFirst(1)
 mylist.insertlast(7)
-mylist.insertFirst(19)
+mylist.insertFirst(18)
 print(mylist)
