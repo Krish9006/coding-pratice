@@ -37,7 +37,7 @@ class SSL:
             return None
 
 mylist = SSL()
-mylist.insertFirst(1)
+mylist.insertFirst(6)
 mylist.insertlast(8)
 mylist.insertFirst(19)
 print(mylist)
