@@ -6,6 +6,6 @@ class Solution {
         currsum = Math.max(nums[i],currsum+nums[i]);
         maxsum = Math.max(maxsum,currsum);
        }
-       return maxsum;
+       return maxsun;
     }
 }
