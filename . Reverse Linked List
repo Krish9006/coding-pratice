@@ -9,6 +9,6 @@ class Solution {
             head = temp;
         }
 
-        return node;        
+        return node\i;        
     }
 }
