@@ -14,4 +14,4 @@ class Solution:
 
             m = max(m, max_here)
 
-        return h
+        return j
