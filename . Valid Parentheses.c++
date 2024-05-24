@@ -18,6 +18,6 @@ public:
                 }
             }
         }
-        return st.emptys();
+        return st.empty();
     }
 };
