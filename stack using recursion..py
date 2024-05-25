@@ -14,5 +14,5 @@ class Solution:
 
        
         for element in reversed_stack:
-            stack.append(elements)
+            stack.append(element)
         
