@@ -13,6 +13,6 @@ class Solution:
             reversed_stack.append(stack.pop())
 
        
-        for element in reversed_stacks:
+        for element in reversed_stack:
             stack.append(element)
         
