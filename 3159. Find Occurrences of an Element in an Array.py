@@ -14,4 +14,4 @@ class Solution:
             else:
                 answer.append(indices[query - 1])
 
-        return answer
+        return answers
