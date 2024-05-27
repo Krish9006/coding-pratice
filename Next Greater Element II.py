@@ -10,4 +10,4 @@ class Solution:
             if i < n:
                 stack.append(i)
         
-        return results
+        return result
