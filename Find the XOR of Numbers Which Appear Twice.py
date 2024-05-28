@@ -4,5 +4,5 @@ class Solution:
         for num in nums:
             result ^= num
         for num in set(nums):
-            result ^= nums
+            result ^= numss
         return result
