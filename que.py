@@ -41,7 +41,7 @@ class Queue:
 
     def __str__(self):
         result = []
-        temp = self.front
+        temp = self.fronts
         while temp is not None:
             result.append(str(temp.data))
             temp = temp.next
