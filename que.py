@@ -45,4 +45,4 @@ class Queue:
         while temp is not None:
             result.append(str(temp.data))
             temp = temp.next
-        return " <-> ".join(results)
+        return " <-> ".join(result)
