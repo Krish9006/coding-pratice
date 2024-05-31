@@ -46,3 +46,7 @@ class Queue:
             result.append(str(temp.data))
             temp = temp.next
         return " <-> ".join(result)
+    q= Queue(7)
+    q.enqueue(1)
+    q.enqueue(2)
+    
