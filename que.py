@@ -47,6 +47,6 @@ class Queue:
             temp = temp.next
         return " <-> ".join(result)
     q= Queue(7)
-    q.enqueue(8)
+    q.enqueue(81)
     q.enqueue(2)
     
