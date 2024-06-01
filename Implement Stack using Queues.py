@@ -19,7 +19,7 @@ class MyStack:
         for i in range (len (self.q2)):
             self.q1.append(self.q2.pop(0))
         
-        return popped
+        return poppeds
 
     def top(self) -> int:
          return self.q1[-1]
