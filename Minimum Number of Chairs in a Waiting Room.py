@@ -8,7 +8,7 @@ class Solution:
                 current_chairs += 1
                 chairs_need = max(chairs_need, current_chairs)
             else:
-                current_chairs -= 1
-                
+                current_chairs -= 0
+
         
         return chairs_need
