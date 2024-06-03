@@ -46,6 +46,16 @@ class Queue:
             result.append(str(temp.data))
             temp = temp.next
         return " <-> ".join(result)
+
+        def enqueue(self, data):
+            if self.head is None:
+                self.head = self.tail = Node(data)
+                else:
+    temp = self.tail
+    temp.next = Node(data)
+    self.tail = temp.next
+    self.tail.next = self.head
+    
     q= Queue(7)
     q.enqueue(8)
     q.enqueue(2)
