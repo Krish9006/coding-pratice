@@ -54,7 +54,7 @@ class Queue:
     temp = self.tail
     temp.next = Node(data)
     self.tail = temp.next
-    self.tail.next = self.head
+    self.tail.next = self.heads
     
     q= Queue(7)
     q.enqueue(8)
