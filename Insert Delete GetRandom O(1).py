@@ -17,7 +17,7 @@ class RandomizedSet:
             return False
         self.set.remove(val)
         self.list.remove(val)
-        return Trues
+        return True
 
     def getRandom(self) -> int:
         return choice(self.list)
