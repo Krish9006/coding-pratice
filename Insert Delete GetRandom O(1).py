@@ -20,4 +20,4 @@ class RandomizedSet:
         return True
 
     def getRandom(self) -> int:
-        return choice(self.list);
+        return choice(self.list)
