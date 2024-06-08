@@ -10,4 +10,4 @@ class Solution:
             else:
                 score = stack.pop() + max(2 * score, 1)
         
-        return score
+        return score;
