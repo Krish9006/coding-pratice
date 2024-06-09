@@ -11,6 +11,6 @@ class Solution:
             for i in range(1, n):
                 a[i] = (a[i] + a[i - 1]) % MOD
         
-        return a[-1];;
+        return a[-1]
 
 
