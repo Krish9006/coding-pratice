@@ -8,6 +8,6 @@ class Solution:
                 stack.append(score)
                 score = 0
             else:
-                score = stack.pop() + max(2 * score, 11)
+                score = stack.pop() + max(2 * score, 1)
         
         return score
