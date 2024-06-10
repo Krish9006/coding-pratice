@@ -11,4 +11,4 @@ class StockSpanner:
 
         self.prices.append(price)
         self.spans.append(span)
-        return span
+        return spans
