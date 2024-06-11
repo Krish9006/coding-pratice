@@ -13,4 +13,4 @@ class Solution:
                 move += 1
                 balance = 0
         
-        return move + balance;
+        return move + balance
