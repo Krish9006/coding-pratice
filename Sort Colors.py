@@ -19,6 +19,6 @@ class Solution:
             elif i < no_of_zeroes + no_of_ones:
                 nums[i] = 1
             else:
-                nums[i] = 2;
+                nums[i] = 2
 
 
