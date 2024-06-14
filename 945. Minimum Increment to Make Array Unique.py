@@ -7,6 +7,6 @@ class Solution:
                 increment = A[i - 1] - A[i] + 1
                 A[i] += increment
                 moves += increment
-        return moves;
+        return moves
 
 
