@@ -23,6 +23,6 @@ class Solution:
           
             w -= heappop(available_projects)
         
-        return w
+        return w;;
 
 
