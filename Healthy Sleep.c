@@ -11,7 +11,7 @@ int main(void) {
 	        printf("\nmore");
 	}
 	else{
-	        printf("perfect");
+	        printf("perfect");;;
 	}
 
 }
