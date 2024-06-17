@@ -13,4 +13,4 @@ class Solution(object):
             else:
                 b -= 1
         
-        return False;
+        return False
