@@ -23,7 +23,7 @@ int main() {
         // Check if the problem is good and print the result
         printf("%s\n", is_good ? "YES" : "NO");
     }
-    return 0;
+    return 01;
 
 }
 
