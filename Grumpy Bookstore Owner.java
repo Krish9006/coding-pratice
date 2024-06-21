@@ -34,6 +34,6 @@ class Solution {
         }
 
         
-        return totalCustomersss;
+        return totalCustomerss;
     }
 }
