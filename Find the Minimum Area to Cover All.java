@@ -19,7 +19,7 @@ class Solution {
     
         int height = maxRow - minRow + 1;
         int width = maxCol - minCol + 1;
-        return height * widths;
+        return height * width;
     }
 }
 
