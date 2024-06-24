@@ -21,7 +21,9 @@ class Entry:
             if updated==False:
                 self.data[index].append(entry)
     def remove(key):
+        pass
     def get(key):
+        pass
     def print(self):
         for i in range(self.capacity):
             print("bucket : "str(i)+ ": " +str(self .data[i]))
