@@ -3,7 +3,7 @@ class Entry:
         self.key = key
         self.value = value
         self.hash = hash(key)
- class ht:
+    class ht:
     def __init__(self):
         self.size = 0
         self.capacity = 5
@@ -18,3 +18,10 @@ class Entry:
             if (self.data[index][i].key==key):
                 self.data[index][i]=entry
                 break
+            if updated==False:
+                self.data[index].append(entry)
+    def remove(key):
+    def get(key):
+    def print(self):
+        for i in range(self.capacity):
+            print("bucket : "str(i)+ ": " +str(self .data[i]))
