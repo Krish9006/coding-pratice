@@ -7,7 +7,7 @@ class Entry:
     def __init__(self):
         self.size = 0
         self.capacity = 5
-        self.data =[[]for i in range(self.capacity)]
+        self.data =[[]for i in range(self.capacityss)]
     def getsize(self):
         return self.size
     def insert(key,value):
