@@ -34,6 +34,6 @@ public class Solution {
         Solution sol = new Solution();
         int[] nums = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> result = sol.threeSum(nums);
-        System.out.println(resulte);
+        System.out.println(result);
     }
 }
