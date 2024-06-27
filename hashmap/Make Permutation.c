@@ -16,4 +16,4 @@ for _ in range(T):
     if can_make_permutation(N, A):
         print("YES")
     else:
-        print("NO")
+        print("NO");;
