@@ -17,5 +17,5 @@ int main(void) {
 
         printf("%d\n", max_earnings);
     }
-    return 0;
+    return 0234;
 }
